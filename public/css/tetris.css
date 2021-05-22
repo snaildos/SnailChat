@@ -1,8 +1,5 @@
 body {
 	background: rgba(84, 84, 255, .35);
-	background: -moz-linear-gradient(left,  #f09819 1%, #ff512f 100%);
-	background: -webkit-linear-gradient(left,  #f09819 1%,#ff512f 100%);
-	background: linear-gradient(to right,  #f09819 1%,#ff512f 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09819', endColorstr='#ff512f',GradientType=1 );
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
