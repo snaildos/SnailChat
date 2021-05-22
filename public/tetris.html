@@ -12,6 +12,17 @@
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<style>
+		.room  {
+			display: none;
+		}
+	</style>
+<script>
+$(document).ready(function(){
+    $(".room").val("tetris");
+});
+</script>
   </head>
 	<body>
 		<div class="container">
@@ -20,9 +31,10 @@
 					<div class="large-7 medium-7 small-12 columns small-centered">
 						<form id="login-form">
 							<h2>SnailChat</h2>
+							<p>This chat is unfiltered, if you are under the age of 13, please know, you may be exposed to mature content.</p>
 							<p id="error-msg"></p> 
-							<input type="text" name="username" placeholder="Enter your username" >
-							<input type="text" name="room" class="room" placeholder="Enter a chat room name" >
+							<input type="text" name="username" placeholder="Enter a nickname!" >
+							<input type="text" name="room" class="room" placeholder="preset" >
 							<input type="submit" value="Join Chat">
 						</form>
 					</div>	

@@ -1,26 +1,16 @@
 {
-  "name": "node-chat-app",
+  "name": "socketio-chatroom",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Chat app built in Node.js using Express and Socket.IO",
   "scripts": {
-    "start": "node server/server.js",
-    "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "engines": {
-    "node": "6.17.1"
-  },
-  "author": "",
+  "author": "Moniba Ali",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "moment": "^2.15.1",
-    "socket.io": "^3.0.0"
-  },
-  "devDependencies": {
-    "expect": "1.20.2",
-    "mocha": "3.5.3",
-    "nodemon": "1.18.7"
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "socket.io": "^1.7.3"
   }
 }
